@@ -18,3 +18,23 @@ header{
 	top:200px;
 	left:700px;
 }
+
+#slideshow {
+	width:auto;
+	background-color:#000;
+}
+#page{
+	width:600px;
+	background-color:#000;
+	margin:50px auto;
+}
+#slider {
+	width:600px;
+	height:250px;
+	
+	/*IE bugfix*/
+	padding:0;
+	margin:0;
+}
+
+#slider li { list-style:none; }
