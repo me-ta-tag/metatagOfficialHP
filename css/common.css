@@ -12,3 +12,9 @@ header{
 	position: fixed;
 	background-color: #0000FF;
 }
+.twitter{
+	
+	position:relative;
+	top:200px;
+	left:700px;
+}
