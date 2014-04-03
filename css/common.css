@@ -12,9 +12,9 @@ header{
 	position: fixed;
 	background-color: #0000FF;
 }
-.twitter{
+.twitter-timeline{
 	
 	position:relative;
-	top:200px;
-	left:700px;
+	top:40%;
+	left:70%;
 }
