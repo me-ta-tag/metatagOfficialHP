@@ -2,23 +2,21 @@
 	padding:0px;
 	margin:0;
 }
-
+header{
+	height:30px;
+	width: 100%;
+	background-color: #0000FF;
+}
 html,body {
 	width: 100%;
 	height:100%;
 	margin: 0;
 	background-color:#FFFFFF;
-
 }
-
-#header{
-	height:30px;
-	width: 100%;
-	background-color: #0000FF;
-}
-
-#menu{
-	margin-top:20px;	
+.twitter{	
+	position:relative;
+	top:200px;
+	left:700px;
 }
 
 #logo{
@@ -26,25 +24,24 @@ html,body {
 	width:124;
 	float:left;
 }
-.twitter{
-	
-	position:relative;
-	top:200px;
-	left:700px;
-}
-#logo{
-	top:100px;
-}
-#menu{
+
+nav{
 	margin-top:30px;
-	margin-left:20px;;
-	
-	
+	margin-left:20px;	
+}
+
+#main_menu{
+	margin-top:70px;
+	float:left;
 }
 #main_menu p{
-	width:120px;
+	width:160px;
 	height:auto;
 	text-align:center;
 	float:left;
+}
 
+#social_menu{
+	height:auto;
+	float:right;
 }
