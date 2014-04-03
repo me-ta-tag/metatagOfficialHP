@@ -10,7 +10,7 @@ header{
 	/*height: 180px;*/
 	width: 100%;
 	position: fixed;
-	background-color: #0000FF;
+	background-color: #4468a9;
 }
 .twitter{
 	
@@ -18,23 +18,25 @@ header{
 	top:200px;
 	left:700px;
 }
-
+/*スライド*/
 #slideshow {
 	width:auto;
-	background-color:#000;
+	/*background-color:#000;*/
 }
 #page{
-	width:600px;
-	background-color:#000;
+	width:960px;
+	background-color:#4468a9;
 	margin:50px auto;
 }
+
+#slider li { list-style:none; }
+
 #slider {
-	width:600px;
-	height:250px;
+	width:960px;
+	height:350px;
 	
 	/*IE bugfix*/
 	padding:0;
 	margin:0;
 }
-
-#slider li { list-style:none; }
+/*スライド*/
