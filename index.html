@@ -1,53 +1,103 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>トップページ</title>
+	<title>めたたぐ/TOP</title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="description" content="京都コンピュータ学院サークルめたたぐの公式ホームページです。">
+    <meta name="keywords" content="めたたぐ">
+    <meta name="copyright" content="COPYRIGHT © METATAG">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/toppage.css">
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/common.css" />
-	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 </head>
 
-<body>
 
+<body>
 <header>
     <nav>
         <div id="blueline"></div>
         <div id="menu">
-            <div id="social_menu">
-                <a href=""><img src="img/facebook.png"></a>
-                <a href=""><img src="img/twitter_icon.png"></a>
-            </div>
-            
-            <div id="logo"><img src="img/logo.png"></div><!--/#logo-->
-            
+            <div id="logo"><img src="img/logo.png"></div><!--/#logo-->   
             <div id="main_menu">
-                <a href= "news/"><img src="img/menu_news.png"></a>
-                <a href= "aboutus"><img src="img/menu_aboutus.png"></a>
-                <a href= "schedule"><img src="img/menu_schedule.png"></a>
-                <a href= "contact"><img src="img/contact.png"></a>	
+                <div id ="space_width20"></div>
+                <div id="social_menu">
+                    <a href="https://www.facebook.com/groups/536843003096750/" target="_blank"><img src="img/facebook.png" class="fb_margin"></a>
+<!--                    <div id ="space_width20"></div>-->
+                    <a href="https://twitter.com/metatag_kcg" target="_blank"><img src="img/twitter_icon.png"></a>
+                </div>
+                <div class="clear"></div>
+                
+                <div id="menu_bar">
+                    <a href= "news/"><div id="menu1"><img src="img/menu_news.png" class="eachmenu"></div></a>
+                    <a href= "aboutus"><div id="menu2"><img src="img/menu_aboutus.png" alt="aboutus" class="eachmenu"></div></a>
+                    <a href= "works"><div id="menu3"><img src="img/menu_works.png" alt="works" class="eachmenu"></div></a>
+                    <a href= "schedule"><div id="menu4"><img src="img/menu_schedule.png" alt="schedule" class="eachmenu"></div></a>
+                    <a href= "contact"><div id="menu5"><img src="img/contact.png" alt="contact"></div></a>	
+                </div>
+                
             </div><!--/#main_menu-->
-        </div>
-    </nav><!--/#menu--> 
+        </div><!--/#menu--> 
+    </nav><!--/nav--> 
 </header><!--/#header -->
 
 
-<div id="slideshow">
+<div id="slideshow"></div><!--/#slideshow-->
 
-</div><!--/#slideshow-->
+<div class="news_twi">
+    <div class="news">
+        <h3>更新履歴</h3>
+        <p>14.04.05 めたたぐWebサイトオープンしました</p>
+    </div>
+    
+    <div class="twitter">
+        <a class="twitter-timeline" width="315px" height="350px" href="https://twitter.com/metatag_kcg"  data-widget-id="451253944694497280">@metatag_kcg からのツイート</a>
+            
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+        </script>
+    </div>
+</div>
 
+
+
+
+<!--
 <div class="float">
 
     <div class="news"></div>
     <div class="twitter">
         <a class="twitter-timeline" width="70px" height="50px" href="https://twitter.com/metatag_kcg"  data-widget-id="451253944694497280">@metatag_kcg からのツイート</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+            
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+        </script>
     </div>
 </div>
+-->
 
-<div class="aboutus"></div>
-<div class="schedule"></div>
-<div class="contact"></div>
+
+<hr class="style-one">
+<div class="aboutus">
+    <div class="contents"><img src="img/contents_aboutus.png" alt="contents_aboutus"></div>
+</div>
+    
+<hr class="style-one">
+    
+<div class="works">
+    <div class="contents"><img src="img/contents_works.png" alt="contents_aboutus"></div>
+    <div id="works_pics"><img src="img/01-thumb.png"><img src="img/02-thumb.png"></div> 
+</div>
+
+<hr class="style-one">
+
+<div class="schedule">
+    <div class="contents"><img src="img/contents_schedule.png" alt="contents_aboutus"></div> 
+</div>
+    
+<hr class="style-one">
+
+<div class="contact">
+    <div class="contents"><img src="img/contents_contact.png" alt="contents_aboutus"></div> 
+</div>
+<hr class="style-one">
 
 <footer>
 </footer>
