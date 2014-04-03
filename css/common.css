@@ -1,12 +1,7 @@
 *{
 	padding:0px;
 	margin:0;
-}
-/*
-header{
-	height:30px;
-	width: 100%;
-	background-color: #0000FF;
+	font-family:'ヒラギノ丸ゴ Pro', 'Helvetica Neue', Helvetica, Arial, Roboto, 'Droid Sans', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
 }
 */
 html,body {
@@ -23,8 +18,15 @@ html,body {
 
 .twitter{	
 	position:relative;
-	top:200px;
-	left:700px;
+	top:10%;
+	left:10%;
+}
+nav{
+	margin:0;
+}
+#blueline{
+	margin-top:20px;
+	background-color:#0000FF;
 }
 
 #logo{
@@ -32,6 +34,7 @@ html,body {
 	width:124px;
 	float:left;
 }
+
 
 nav{
     margin-top:0px;
@@ -44,8 +47,34 @@ nav{
     height:124px;
 }
 
+.float{
+	height:20%;
+	width:50%;
+	margin:0 auto;
+}
+
+
+.news{
+	/*position:relative;*/
+	/margin:0 auto;
+	/*left:30%;*/ 
+	width:60%;
+	height:200%;
+	overflow:auto;
+	border:2px solid #ffffff; 
+	float:left;
+}
+
+.twitter{
+	/*width:10%;*/
+	/*height:10%;*/
+	float:right;
+
+}
+
+
 #main_menu{
-	margin-top:70px;
+	margin-top:20px;
 	float:left;
 }
 #main_menu p{
@@ -55,7 +84,7 @@ nav{
 	float:left;
 }
 
-#social_menu{
-	height:auto;
-	float:right;
+.clear{
+	float:clear;
+
 }
