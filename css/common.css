@@ -2,11 +2,6 @@
 	padding:0px;
 	margin:0;
 }
-header{
-	height:30px;
-	width: 100%;
-	background-color: #0000FF;
-}
 html,body {
 	width: 100%;
 	height:100%;
@@ -18,6 +13,13 @@ html,body {
 	top:200px;
 	left:700px;
 }
+nav{
+	margin:0;
+}
+#blueline{
+	margin-top:20px;
+	background-color:#0000FF;
+}
 
 #logo{
 	height:114;
@@ -25,13 +27,9 @@ html,body {
 	float:left;
 }
 
-nav{
-	margin-top:30px;
-	margin-left:20px;	
-}
 
 #main_menu{
-	margin-top:70px;
+	margin-top:20px;
 	float:left;
 }
 #main_menu p{
