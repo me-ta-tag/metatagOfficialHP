@@ -1,7 +1,7 @@
 *{
 	padding:0px;
 	margin:0;
-
+}
 
 html,body {
 	width: 100%;
@@ -11,12 +11,10 @@ html,body {
 
 }
 
-
 #header{
 	height:30px;
 	width: 100%;
 	background-color: #0000FF;
-	position:relative;
 }
 
 #menu{
@@ -24,7 +22,9 @@ html,body {
 }
 
 #logo{
-	
+	height:114;
+	width:124;
+	float:left;
 }
 .twitter{
 	
@@ -34,7 +34,6 @@ html,body {
 }
 #logo{
 	top:100px;
-	position:absolute
 }
 #menu{
 	margin-top:30px;
@@ -42,7 +41,10 @@ html,body {
 	
 	
 }
-#main_menu{
-
+#main_menu p{
+	width:120px;
+	height:auto;
+	text-align:center;
+	float:left;
 
 }
