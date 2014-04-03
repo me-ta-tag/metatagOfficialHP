@@ -1,6 +1,11 @@
 *{
+<<<<<<< HEAD
+	padding:0px;
+	margin:0;
+=======
 	margin:0px;
 	padding:0px;
+>>>>>>> e1369cc0fb0b3e80b3f238add35aedd6133f1379
 }
 
 html,body {
@@ -10,11 +15,20 @@ html,body {
 	background-color:#FFFFFF;
 
 }
+<<<<<<< HEAD
+#header{
+	height: 28px;
+	/*height: 180px;*/
+	width: 100%;
+	/* position: fixed; */
+=======
 
 #header{
 	height:30px;
 	width: 100%;
+>>>>>>> e1369cc0fb0b3e80b3f238add35aedd6133f1379
 	background-color: #0000FF;
+	position:relative;
 }
 
 #menu{
@@ -29,4 +43,18 @@ html,body {
 	position:relative;
 	top:200px;
 	left:700px;
+}
+#logo{
+	top:100px;
+	position:absolute
+}
+#menu{
+	margin-top:30px;
+	margin-left:20px;;
+	
+	
+}
+#main_menu{
+
+
 }
