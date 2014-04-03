@@ -17,8 +17,8 @@ html,body {
 }
 .twitter{	
 	position:relative;
-	top:200px;
-	left:700px;
+	top:10%;
+	left:10%;
 }
 
 #logo{
@@ -27,7 +27,6 @@ html,body {
 	float:left;
 }
 
-<<<<<<< HEAD
 .float{
 	
 
@@ -55,16 +54,12 @@ html,body {
 	/*width:10%;*/
 	/*height:10%;*/
 	float:right;
-=======
-nav{
-	margin-top:30px;
-	margin-left:20px;	
+
 }
 
 #main_menu{
 	margin-top:70px;
 	float:left;
->>>>>>> 1bc67881dfbadb3a698d36ffa8df3c45622f4022
 }
 #main_menu p{
 	width:160px;
@@ -73,12 +68,7 @@ nav{
 	float:left;
 }
 
-<<<<<<< HEAD
 .clear{
 	float:clear;
-=======
-#social_menu{
-	height:auto;
-	float:right;
->>>>>>> 1bc67881dfbadb3a698d36ffa8df3c45622f4022
+
 }
