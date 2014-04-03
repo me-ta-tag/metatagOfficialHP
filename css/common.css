@@ -127,6 +127,9 @@ nav{
     border: none;
     border-bottom: thin solid #ffa817;
 }
+.slider{
+	margin:  auto;
+}
 
 footer{
     width:100%;
