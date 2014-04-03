@@ -4,23 +4,21 @@
 	font-family:'ヒラギノ丸ゴ Pro', 'Helvetica Neue', Helvetica, Arial, Roboto, 'Droid Sans', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
 
 }
-
+header{
+	height:30px;
+	width: 100%;
+	background-color: #0000FF;
+}
 html,body {
 	width: 100%;
 	height:100%;
 	margin: 0;
 	background-color:#FFFFFF;
-
 }
-
-#header{
-	height:30px;
-	width: 100%;
-	background-color: #0000FF;
-}
-
-#menu{
-	margin-top:20px;	
+.twitter{	
+	position:relative;
+	top:200px;
+	left:700px;
 }
 
 #logo{
@@ -29,6 +27,7 @@ html,body {
 	float:left;
 }
 
+<<<<<<< HEAD
 .float{
 	
 
@@ -56,14 +55,30 @@ html,body {
 	/*width:10%;*/
 	/*height:10%;*/
 	float:right;
+=======
+nav{
+	margin-top:30px;
+	margin-left:20px;	
+}
+
+#main_menu{
+	margin-top:70px;
+	float:left;
+>>>>>>> 1bc67881dfbadb3a698d36ffa8df3c45622f4022
 }
 #main_menu p{
-	width:120px;
+	width:160px;
 	height:auto;
 	text-align:center;
 	float:left;
 }
 
+<<<<<<< HEAD
 .clear{
 	float:clear;
+=======
+#social_menu{
+	height:auto;
+	float:right;
+>>>>>>> 1bc67881dfbadb3a698d36ffa8df3c45622f4022
 }
