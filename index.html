@@ -15,6 +15,25 @@
 		<script type="text/javascript" src="js/slide/mousewheel.js"></script>
 		<script type="text/javascript" src="js/slide/easing.js"></script>
 		<script type="text/javascript" src="js/common.js"></script>
+		<script src="js/jquery-1.7.2.min.js"></script><!--lightbox-->
+        <script src="js/lightbox.js"></script><!--lightbox-->
+        <link href="css/lightbox.css" rel="stylesheet" /><!--lightbox-->
+		
+		<script type="text/javascript">
+            $(window).load(function() {
+                var liTotalWidth = 0;
+                var marginR = 0;
+                var li_menu = $("ul.dummy_menu li");
+             
+                li_menu.each(function() {
+                    liTotalWidth += $(this).outerWidth();
+                });
+                marginR = Math.floor( ( $("ul.dummy_menu").width() - liTotalWidth ) / ( li_menu.length - 1 ) );
+                li_menu.not(":last-child").css({
+                    marginRight: marginR + 'px'
+                });
+            });
+		</script>
 </head>
 
 
@@ -99,9 +118,16 @@
     
 <div class="works">
     <div class="contents"><img src="img/contents_works.png" alt="contents_aboutus"></div>
-    <div id="works_pics"><img src="img/01-thumb.png"><img src="img/02-thumb.png"></div> 
+    <div id="works_pics">
+        <ul class="dummy_menu clearfix">
+            <li><a href="img/01-thumb.png" rel="lightbox[roadtrip]" title="キャプション"><img src="img/01-thumb.png"></a></li>
+            <li><img src="img/02-thumb.png"></li>
+            <li><img src="img/01-thumb.png"></li>
+            <li><img src="img/04-thumb.png"></li>
+        </ul>    
+    </div> 
 </div>
-
+<br><br>
 <hr class="style-one">
 
 <div class="schedule">
@@ -112,6 +138,7 @@
 
 <div class="contact">
     <div class="contents"><img src="img/contents_contact.png" alt="contents_aboutus"></div> 
+    <img src="img/contact_contens.png">
 </div>
 <hr class="style-one">
 

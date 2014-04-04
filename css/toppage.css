@@ -31,19 +31,23 @@
     width:900px;
 	margin:0px auto;
     margin-top:30px;
-    background-color:silver;
+    background-color:#fff;
 }
 
 .news{
 	/*position:relative;*/
 /*	/margin:0 auto;*/
 	/*left:30%;*/ 
-	width:65%;
+	width:64%;
 /*	height:200%;*/
     height:350px;
 	overflow:auto;
-	background-color:red;
+	background-color:‹#fff;
 	float:left;
+    border: 1px solid #ebe8e8;  
+    border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
 }
 
 .twitter{
@@ -68,15 +72,31 @@
     margin:0 auto;
     width:900px;
     height:237px;
-    background-color:orange;
+    background-color:#fff;
 }
 
 #works_pics{
     margin:0 auto;
     width:900px;
     height:200px;
-    background-color:#787;
+    background-color:#fff;
 }
+
+ul.dummy_menu {
+    margin: 0 0 25;
+    padding: 1em 0;
+    list-style: none;
+    border-top: 0px dotted #ccc;
+    border-bottom: 0px dotted #ccc;
+}
+ul.dummy_menu li {
+    float: left;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+/*clearfixは省略しています*/
+
 .schedule{
     margin:0 auto;
     width:900px;
@@ -87,6 +107,7 @@
 .contact{
     margin:0 auto;
     width:900px;
-    height:350px;
-    background-color:purple;
+    height:200px;
+    background-color:#fff;
 }
+
