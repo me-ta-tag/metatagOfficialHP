@@ -54,7 +54,7 @@
 			setUpSettings = function (settings) {
 				settings.controlsPrevNext = String(settings.controlsPrevNext) == 'true' ? true : false;
 				settings.controlsKeyboard = String(settings.controlsKeyboard) == 'true' ? true : false;
-				settings.controlsMousewheel = String(settings.controlsMousewheel) == 'true' ? true : false;
+				settings.controlsMousewheel = String(settings.controlsMousewheel) == 'false' ? true : false;
 				settings.controlsPlayPause = String(settings.controlsPlayPause) == 'true' ? true : false;
 				settings.pauseOnHover = String(settings.pauseOnHover) == 'true' ? true : false;
 				settings.animateActive = String(settings.animateActive) == 'true' ? true : false;
@@ -339,7 +339,7 @@
 				if (settings.controlsMousewheel) {
 					vars.container.addClass(vars.prefix + 'controls-mousewheel');
 					if (!$.isFunction($.fn.mousewheel)) {
-						alert('$.fn.mousewheel is not a function. Please check that you have the mousewheel-plugin installed properly.');
+						/* alert('$.fn.mousewheel is not a function. Please check that you have the mousewheel-plugin installed properly.'); */
 					} else {
 						$slider.mousewheel(function (e, delta) {
 							e.preventDefault();
