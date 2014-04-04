@@ -1,10 +1,28 @@
 
 
 #slideshow{
-    width:100%;
+    width:auto;
     height:350px;
     background-color:yellow;
+    margin: 50px auto;  
 }
+#page{
+    width:960px;
+    background-color:#4468a9;
+    margin:50px auto;
+}
+
+#slider li { list-style:none; }
+
+#slider {
+    width:960px;
+    height:350px;
+
+    /*IE bugfix*/
+    padding:0;
+    margin:0;
+}
+
 
 .news_twi{
 /*	height:20%;*/
