@@ -1,15 +1,15 @@
 
-
 #slideshow{
     width:auto;
     height:350px;
     background-color:#fff;
-    margin: 50px auto;  
+    margin: 30px auto; 
 }
+
 #page{
     width:960px;
     background-color:#fff;
-    margin:50px auto;
+    margin:30px auto;
 }
 
 #slider li { list-style:none; }
@@ -101,7 +101,7 @@ ul.dummy_menu li {
     margin:0 auto;
     width:900px;
     height:350px;
-    background-color:gray;
+    background-color:pink;
 }
 
 .contact{
