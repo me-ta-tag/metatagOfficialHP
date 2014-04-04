@@ -8,13 +8,35 @@
     <meta name="copyright" content="COPYRIGHT © METATAG">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/toppage.css">
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link href="css/light_box/lightbox.css" type="text/css" rel="stylesheet" media="all" />
+	<script src="js/light_box/lightbox.js" type="text/javascript"></script>
+
 	<link type="text/css" rel="stylesheet" href="css/slide/rhinoslider-1.05.css" />
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 		<script type="text/javascript" src="js/slide/rhinoslider-1.05.min.js"></script>
 		<script type="text/javascript" src="js/slide/mousewheel.js"></script>
 		<script type="text/javascript" src="js/slide/easing.js"></script>
 		<script type="text/javascript" src="js/common.js"></script>
+		<script src="js/jquery-1.7.2.min.js"></script><!--lightbox-->
+        <!--<script src="js/lightbox.js"></script>--><!--lightbox-->
+        <!--<link href="css/lightbox.css" rel="stylesheet" />--><!--lightbox-->
+		
+		<script type="text/javascript">
+            $(window).load(function() {
+                var liTotalWidth = 0;
+                var marginR = 0;
+                var li_menu = $("ul.dummy_menu li");
+             
+                li_menu.each(function() {
+                    liTotalWidth += $(this).outerWidth();
+                });
+                marginR = Math.floor( ( $("ul.dummy_menu").width() - liTotalWidth ) / ( li_menu.length - 1 ) );
+                li_menu.not(":last-child").css({
+                    marginRight: marginR + 'px'
+                });
+            });
+		</script>
 </head>
 
 
@@ -23,7 +45,7 @@
     <nav>
         <div id="blueline"></div>
         <div id="menu">
-            <div id="logo"><img src="img/logo.png"></div><!--/#logo-->   
+            <div id="logo"><a href="index.html"><img src="img/logo.png"></a></div><!--/#logo-->   
             <div id="main_menu">
                 <div id ="space_width20"></div>
                 <div id="social_menu">
@@ -34,11 +56,11 @@
                 <div class="clear"></div>
                 
                 <div id="menu_bar">
-                    <a href= "news/"><div id="menu1"><img src="img/menu_news.png" class="eachmenu"></div></a>
-                    <a href= "aboutus"><div id="menu2"><img src="img/menu_aboutus.png" alt="aboutus" class="eachmenu"></div></a>
-                    <a href= "works"><div id="menu3"><img src="img/menu_works.png" alt="works" class="eachmenu"></div></a>
-                    <a href= "schedule"><div id="menu4"><img src="img/menu_schedule.png" alt="schedule" class="eachmenu"></div></a>
-                    <a href= "contact"><div id="menu5"><img src="img/contact.png" alt="contact"></div></a>	
+                    <a href= "news/index.html"><div id="menu1"><img src="img/menu_news.png" class="eachmenu"></div></a>
+                    <a href= "aboutus/index.html"><div id="menu2"><img src="img/menu_aboutus.png" alt="aboutus" class="eachmenu"></div></a>
+                    <a href= "works/index.html"><div id="menu3"><img src="img/menu_works.png" alt="works" class="eachmenu"></div></a>
+                    <a href= "schedule/index.html"><div id="menu4"><img src="img/menu_schedule.png" alt="schedule" class="eachmenu"></div></a>
+                    <a href= "contact/index.html"><div id="menu5"><img src="img/contact.png" alt="contact"></div></a>	
                 </div>
                 
             </div><!--/#main_menu-->
@@ -92,26 +114,35 @@
 
 <hr class="style-one">
 <div class="aboutus">
-    <div class="contents"><img src="img/contents_aboutus.png" alt="contents_aboutus"></div>
+    <div class="contents"><a href="aboutus/index.html"><img src="img/contents_aboutus.png" alt="contents_aboutus"></a></div>
 </div>
     
 <hr class="style-one">
     
 <div class="works">
-    <div class="contents"><img src="img/contents_works.png" alt="contents_aboutus"></div>
-    <div id="works_pics"><img src="img/01-thumb.png"><img src="img/02-thumb.png"></div> 
-</div>
 
+    <div class="contents"><a href="works/index.html"><img src="img/contents_works.png" alt="contents_aboutus"></a></div>
+    <div id="works_pics">
+        <ul class="dummy_menu clearfix">
+            <li><a href="img/works/01_big.png" rel="lightbox[roadtrip]"><img src="img/works/01_small.png"></a></li>
+            <li><a href="img/works/02_big.png" rel="lightbox[roadtrip]"><img src="img/works/02_small.png"></a></li>
+            <li><a href="img/works/02_big.png" rel="lightbox[roadtrip]"><img src="img/works/02_small.png"></a></li>
+            <li><img src="img/works/04-thumb.png"></li>
+        </ul>    
+    </div> 
+</div>
+<br><br>
 <hr class="style-one">
 
 <div class="schedule">
-    <div class="contents"><img src="img/contents_schedule.png" alt="contents_aboutus"></div> 
+    <div class="contents"><a href="schedule/index.html"><img src="img/contents_schedule.png" alt="contents_aboutus"></a></div> 
 </div>
     
 <hr class="style-one">
 
 <div class="contact">
     <div class="contents"><img src="img/contents_contact.png" alt="contents_aboutus"></div> 
+    <img src="img/contact_contens.png">
 </div>
 <hr class="style-one">
 
