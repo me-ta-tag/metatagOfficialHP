@@ -5,7 +5,7 @@ $(document).ready(function() {
 		showTime: 5000,
 		autoPlay: true
 	});
-	
+//マウスオーバー
 	 $('cap img').hover(function(){
 		$(this).attr('src', $(this).attr('src').replace('_off', '_on'));
 		  }, function(){
@@ -13,4 +13,5 @@ $(document).ready(function() {
 			 $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
 		}
    });
+//マウスオーバー
 });
