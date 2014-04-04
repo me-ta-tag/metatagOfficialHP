@@ -120,10 +120,12 @@ nav{
 }
 
 #menu_bar a {
+    border-style:none;
 	float: left;
 }
 
 #menu_bar a:hover {
+    border-style:none;
     border: none;
     border-bottom: thin solid #ffa817;
 }

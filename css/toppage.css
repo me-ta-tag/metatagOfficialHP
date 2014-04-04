@@ -3,12 +3,12 @@
 #slideshow{
     width:auto;
     height:350px;
-    background-color:yellow;
+    background-color:#fff;
     margin: 50px auto;  
 }
 #page{
     width:960px;
-    background-color:#4468a9;
+    background-color:#fff;
     margin:50px auto;
 }
 
