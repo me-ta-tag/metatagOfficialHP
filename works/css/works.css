@@ -1,0 +1,36 @@
+*{
+	padding:0px;
+	margin:0;
+	font-family:'ƒqƒ‰ƒMƒmŠÛƒS Pro', 'Helvetica Neue', Helvetica, Arial, Roboto, 'Droid Sans', 'ƒƒCƒŠƒI', Meiryo, '‚l‚r ‚oƒSƒVƒbƒN', 'ƒqƒ‰ƒMƒmŠpƒS Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+
+.content {
+	margin: 30px;
+}
+
+.work01{
+	margin:30px 20px;
+	float:left;
+	}
+.work01_ico{
+	float:left;
+	}
+.work01_cap{
+	bottom:10px;
+	}
+
+.work02{
+	margin:0px 20px 30px;	
+	float:left;
+	}
+	
+.work02_ico{
+	float:left;
+	}
+.work02_cap{
+	bottom:10px;
+	}
+	
+footer{
+	clear:both;
+}
