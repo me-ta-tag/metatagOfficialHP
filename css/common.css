@@ -174,8 +174,12 @@ h4{
     color:#3c3c3c;
 }
 
+h2.indent{
+    text-indent:30px;
+}
+
 h3.indent{
-    text-indent: 120px;
+    text-indent: 200px;
 }
 
 h4.indent{
