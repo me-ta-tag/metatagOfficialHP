@@ -6,43 +6,32 @@
 }
 */
 
-.content {
+section {
 	margin: 20px auto;
     width:900px;
 }
 
-.work01{
-	margin:30px 0px 20px 20px;
-	position:relative;
-	height:200px;
+#content{
+    width:900px;
+    margin-top:40px;
+    margin-left:30px;
 }
 
-.work01_ico{
-	float:left;
+.work{
+    margin:0 auto;
+    width:800px;
+    height:200px;
 }
 
-.work01_cap{
-
-}
-
-.work02{
-	clear:left;
-	margin:0px 20px 30px;	
-	float:left;
-}
-	
-.work02_ico{
-	float:left;
-}
-
-.work02_cap{
-
-}
-
-.work03_ico{
+.ico{
     float:left;
 }
-	
-footer{
-	clear:both;
+
+.work h1{
+    font-size:18px;
+}
+
+.work_cap{
+    margin-left:50px;
+    float:left;
 }

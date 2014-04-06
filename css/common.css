@@ -156,6 +156,18 @@ hr.style-one {
     background-image:      -o-linear-gradient(left, #ccc, #96909b, #ccc);
 }
 
+hr.style-two {
+    margin:40px auto;
+    border: 0;
+    width:800px;
+    height: 1px;
+    background: #96909b;
+    background-image: -webkit-linear-gradient(left, #ccc, #96909b, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #96909b, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #96909b, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #96909b, #ccc);
+}
+
 h2{
     font-size : 20px;
     line-height:50px;
