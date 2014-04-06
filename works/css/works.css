@@ -1,7 +1,7 @@
 *{
 	padding:0px;
 	margin:0;
-	font-family:'ƒqƒ‰ƒMƒmŠÛƒS Pro', 'Helvetica Neue', Helvetica, Arial, Roboto, 'Droid Sans', 'ƒƒCƒŠƒI', Meiryo, '‚l‚r ‚oƒSƒVƒbƒN', 'ƒqƒ‰ƒMƒmŠpƒS Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+	font-family:'ãƒ’ãƒ©ã‚®ãƒä¸¸ã‚´ Pro', 'Helvetica Neue', Helvetica, Arial, Roboto, 'Droid Sans', 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', 'ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
 }
 
 .content {
@@ -9,14 +9,15 @@
 }
 
 .work01{
-	margin:30px 20px;
-	float:left;
+	margin:30px 0px 20px 20px;
+	position:relative;
+	height:200px;
 	}
 .work01_ico{
 	float:left;
 	}
 .work01_cap{
-	bottom:10px;
+
 	}
 
 .work02{
@@ -28,7 +29,7 @@
 	float:left;
 	}
 .work02_cap{
-	bottom:10px;
+
 	}
 	
 footer{
