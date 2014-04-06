@@ -1,33 +1,36 @@
-﻿#main{
-	background-color:orange;
+﻿#schedule_mainIMG{
 	margin:20px auto;
 	width:900px;
-	height:200px;
+	height:auto;
 	
 }
-#title{
-	background-color:green;
+#schedule_title{
 	margin:40px auto 0;
 	width:900px;
-	height:100px;
+	height:30px;
 	
 }
+#facebook_link{
+	margin:auto;
+	width:900px;
+}
+
 #schedule_calender{
 	margin:0 auto 60px;
 	width:900px;
 	height:400px;
+	
 }
-#schedule{
-	background-color:orange;
-	width:600px;
-	height:400px;
-	float:left;
-}
-#calender{
-	width:300px;
-	height:400px;
-	float:left;
-}
+	#schedule{
+		margin-top:23px;
+		float:left;
+		
+	}
+	#calender{
+		width:300px;
+		height:400px;
+		float:left;
+	}
 .clear{
 	clear:both;
 }
