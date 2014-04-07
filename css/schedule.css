@@ -34,3 +34,11 @@
 .clear{
 	clear:both;
 }
+
+
+footer.font_white{
+    color : white;
+    text-align: center;
+    height:30px;
+    background-color:#4468a9;
+}
