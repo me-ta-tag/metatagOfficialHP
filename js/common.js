@@ -18,9 +18,9 @@ $(document).ready(function() {
 //メニューのスクロール部分
 	var nav = $('.nav');
     //表示位置
-    var navTop = nav.offset().top+500;
+    var navTop = nav.offset().top+600;
     //ナビゲーションの高さ（シャドウの分だけ足してます）
-    var navHeight = nav.height()+10;
+    var navHeight = nav.height();//+10;
     var showFlag = false;
     nav.css('top', -navHeight+'px');
     //ナビゲーションの位置まできたら表示

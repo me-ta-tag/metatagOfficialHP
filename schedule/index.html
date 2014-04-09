@@ -3,54 +3,22 @@
 <head>
 	<title>めたたぐ/スケジュール</title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-     <?php 
-        require '../php/html/seo.php';
-    ?>
+    <meta name="description" content="京都コンピュータ学院サークルめたたぐの公式ホームページです。">
+    <meta name="keywords" content="めたたぐ">
+    <meta name="copyright" content="COPYRIGHT © METATAG">
 	<link rel="stylesheet" type="text/css" href="../css/common.css">
-	<link rel="stylesheet" type="text/css" href="../css/menu.css" />
 	<link rel="stylesheet" type="text/css" href="../css/schedule.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link type="text/css" rel="stylesheet" href="../css/slide/rhinoslider-1.05.css" />
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-	<script type="text/javascript" src="../js/slide/rhinoslider-1.05.min.js"></script>
-	<script type="text/javascript" src="../js/slide/mousewheel.js"></script>
-	<script type="text/javascript" src="../js/slide/easing.js"></script>
-		<script type="text/javascript" src="../js/common.js"></script>
-		<script>
-		    $(function() {
-            var nav = $('.nav');
-            //表示位置
-            var navTop = nav.offset().top+500;
-            //ナビゲーションの高さ（シャドウの分だけ足してます）
-            var navHeight = nav.height()+10;
-            var showFlag = false;
-            nav.css('top', -navHeight+'px');
-            //ナビゲーションの位置まできたら表示
-                $(window).scroll(function () {
-                    var winTop = $(this).scrollTop();
-                    if (winTop >= navTop) {
-                        
-                        if (showFlag == false) {
-                        showFlag = true;
-                        nav
-                            .addClass('fixed')
-                            .stop().animate({'top' : '0px'}, 200);
-                        }
-                    } else if (winTop <= navTop) {
-                        if (showFlag) {
-                            showFlag = false;
-                            nav.stop().animate({'top' : -navHeight+'px'}, 200, function(){
-                                nav.removeClass('fixed');
-                            });
-                        }
-                    }
-                });
-            });
-		</script>		
+	<link type="text/css" rel="stylesheet" href="css/slide/rhinoslider-1.05.css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<script type="text/javascript" src="js/slide/rhinoslider-1.05.min.js"></script>
+		<script type="text/javascript" src="js/slide/mousewheel.js"></script>
+		<script type="text/javascript" src="js/slide/easing.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>		
 </head>
 
 <body>
-<header class="nav">
+<header>
     <nav>
         <div id="blueline"></div>
         <div id="menu">
@@ -65,11 +33,11 @@
                 <div class="clear"></div>
                 
                 <div id="menu_bar">
-                    <a href= "../#news"><div id="menu1"><img src="../img/menu_news.png" class="eachmenu"></div></a>
-                    <a href= "../aboutus/"><div id="menu2"><img src="../img/menu_aboutus.png" alt="aboutus" class="eachmenu"></div></a>
-                    <a href= "../works/"><div id="menu3"><img src="../img/menu_works.png" alt="works" class="eachmenu"></div></a>
-                    <a href= "./"><div id="menu4"><img src="../img/menu_schedule.png" alt="schedule" class="eachmenu"></div></a>
-                    <a href= "../#contact"><div id="menu5"><img src="../img/contact.png" alt="contact"></div></a>	
+                    <a href= "../index.html#news"><div id="menu1"><img src="../img/menu_news.png" class="eachmenu"></div></a>
+                    <a href= "../aboutus/index.html"><div id="menu2"><img src="../img/menu_aboutus.png" alt="aboutus" class="eachmenu"></div></a>
+                    <a href= "../works/index.html"><div id="menu3"><img src="../img/menu_works.png" alt="works" class="eachmenu"></div></a>
+                    <a href= "index.html"><div id="menu4"><img src="../img/menu_schedule.png" alt="schedule" class="eachmenu"></div></a>
+                    <a href= "../index.html#contact"><div id="menu5"><img src="../img/contact.png" alt="contact"></div></a>	
                 </div>
                 
             </div><!--/#main_menu-->
@@ -110,8 +78,7 @@
 
 <div class="clear"></div>
 
-<footer id="blueline" class="font_white">
-Copyright © 2014 めたたぐ All Rights Reserved.
+<footer>
 </footer>
 
 </body>

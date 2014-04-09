@@ -3,9 +3,9 @@
 <head>
 	<title>めたたぐ/TOP</title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-    <meta name="description" content="京都コンピュータ学院サークルめたたぐの公式ホームページです。">
-    <meta name="keywords" content="めたたぐ">
-    <meta name="copyright" content="COPYRIGHT c METATAG">
+    <?php 
+        require '../php/html/seo.php';
+    ?>
 	<link rel="stylesheet" type="text/css" href="../css/common.css">
     <link rel="stylesheet" type="text/css" href="../css/menu.css" />
 <!--	<link rel="stylesheet" type="text/css" href="../works/css/works.css">-->
@@ -34,11 +34,11 @@
                 <div class="clear"></div>
                 
                 <div id="menu_bar">
-                    <a href= "../index.html#news"><div id="menu1"><img src="../img/menu_news.png" class="eachmenu"></div></a>
-                    <a href= "../aboutus/index.html"><div id="menu2"><img src="../img/menu_aboutus.png" alt="aboutus" class="eachmenu"></div></a>
-                    <a href= "index.html"><div id="menu3"><img src="../img/menu_works.png" alt="works" class="eachmenu"></div></a>
-                    <a href= "../schedule/index.html"><div id="menu4"><img src="../img/menu_schedule.png" alt="schedule" class="eachmenu"></div></a>
-                    <a href= "../index.html#contact"><div id="menu5"><img src="../img/contact.png" alt="contact"></div></a>	
+                    <a href= "../#news"><div id="menu1"><img src="../img/menu_news.png" class="eachmenu"></div></a>
+                    <a href= "../aboutus/"><div id="menu2"><img src="../img/menu_aboutus.png" alt="aboutus" class="eachmenu"></div></a>
+                    <a href= "./"><div id="menu3"><img src="../img/menu_works.png" alt="works" class="eachmenu"></div></a>
+                    <a href= "../schedule/"><div id="menu4"><img src="../img/menu_schedule.png" alt="schedule" class="eachmenu"></div></a>
+                    <a href= "../#contact"><div id="menu5"><img src="../img/contact.png" alt="contact"></div></a>	
                 </div>
                 
             </div><!--/#main_menu-->
