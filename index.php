@@ -57,7 +57,7 @@
         <nav>
             <div id="blueline"></div>
             <div id="menu">
-                <div id="logo"><a href="index.html"><img src="img/logo.png"></a></div><!--/#logo-->   
+                <div id="logo"><a href="./"><img src="img/logo.png"></a></div><!--/#logo-->   
                 <div id="main_menu">
                     <div id ="space_width20"></div>
                     <div id="social_menu">
