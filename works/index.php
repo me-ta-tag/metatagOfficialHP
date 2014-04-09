@@ -169,7 +169,7 @@
                     諦めて上から貼ってみたもののバランスが変になってしまったり。<br/>
                     そんな悩みを解消するための、ステッカーデザインツールです。<br/>
                 </p>
-                <a href="http://www.ldrain.com/yoursPH/">http://www.ldrain.com/yoursPH/</a>
+                <a href="http://stickr-staging.herokuapp.com/" target="_blank">http://stickr-staging.herokuapp.com/</a>
             </div>
         </div>
         
