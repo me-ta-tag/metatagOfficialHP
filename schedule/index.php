@@ -11,10 +11,10 @@
 	<link rel="stylesheet" type="text/css" href="../css/schedule.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link type="text/css" rel="stylesheet" href="../css/slide/rhinoslider-1.05.css" />
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-		<script type="text/javascript" src="../js/slide/rhinoslider-1.05.min.js"></script>
-		<script type="text/javascript" src="../js/slide/mousewheel.js"></script>
-		<script type="text/javascript" src="../js/slide/easing.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/slide/rhinoslider-1.05.min.js"></script>
+	<script type="text/javascript" src="../js/slide/mousewheel.js"></script>
+	<script type="text/javascript" src="../js/slide/easing.js"></script>
 		<script type="text/javascript" src="../js/common.js"></script>
 		<script>
 		    $(function() {
