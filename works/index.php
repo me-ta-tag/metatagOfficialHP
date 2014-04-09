@@ -3,9 +3,9 @@
 <head>
 	<title>めたたぐ/TOP</title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-    <meta name="description" content="京都コンピュータ学院サークルめたたぐの公式ホームページです。">
-    <meta name="keywords" content="めたたぐ">
-    <meta name="copyright" content="COPYRIGHT c METATAG">
+    <?php 
+        require '../php/html/seo.php';
+    ?>
 	<link rel="stylesheet" type="text/css" href="../css/common.css">
     <link rel="stylesheet" type="text/css" href="../css/menu.css" />
 <!--	<link rel="stylesheet" type="text/css" href="../works/css/works.css">-->
