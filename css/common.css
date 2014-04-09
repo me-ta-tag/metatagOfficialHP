@@ -134,11 +134,19 @@ nav{
     border-bottom: thin solid #ffa817;
 }
 
-footer{
+/*footer{
     width:100%;
     height:200px;
     background-color:#4468a9;
+}*/
+
+footer.font_white{
+    color : white;
+    text-align: center;
+    height:30px;
+    background-color:#4468a9;
 }
+
 
 .clear{
 	clear:both;

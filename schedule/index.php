@@ -7,18 +7,50 @@
     <meta name="keywords" content="めたたぐ">
     <meta name="copyright" content="COPYRIGHT © METATAG">
 	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css" />
 	<link rel="stylesheet" type="text/css" href="../css/schedule.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link type="text/css" rel="stylesheet" href="css/slide/rhinoslider-1.05.css" />
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-		<script type="text/javascript" src="js/slide/rhinoslider-1.05.min.js"></script>
-		<script type="text/javascript" src="js/slide/mousewheel.js"></script>
-		<script type="text/javascript" src="js/slide/easing.js"></script>
-		<script type="text/javascript" src="js/common.js"></script>		
+	<link type="text/css" rel="stylesheet" href="../css/slide/rhinoslider-1.05.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/slide/rhinoslider-1.05.min.js"></script>
+	<script type="text/javascript" src="../js/slide/mousewheel.js"></script>
+	<script type="text/javascript" src="../js/slide/easing.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script>
+		    $(function() {
+            var nav = $('.nav');
+            //表示位置
+            var navTop = nav.offset().top+500;
+            //ナビゲーションの高さ（シャドウの分だけ足してます）
+            var navHeight = nav.height()+10;
+            var showFlag = false;
+            nav.css('top', -navHeight+'px');
+            //ナビゲーションの位置まできたら表示
+                $(window).scroll(function () {
+                    var winTop = $(this).scrollTop();
+                    if (winTop >= navTop) {
+                        
+                        if (showFlag == false) {
+                        showFlag = true;
+                        nav
+                            .addClass('fixed')
+                            .stop().animate({'top' : '0px'}, 200);
+                        }
+                    } else if (winTop <= navTop) {
+                        if (showFlag) {
+                            showFlag = false;
+                            nav.stop().animate({'top' : -navHeight+'px'}, 200, function(){
+                                nav.removeClass('fixed');
+                            });
+                        }
+                    }
+                });
+            });
+		</script>		
 </head>
 
 <body>
-<header>
+<header class="nav">
     <nav>
         <div id="blueline"></div>
         <div id="menu">
@@ -78,7 +110,8 @@
 
 <div class="clear"></div>
 
-<footer>
+<footer id="blueline" class="font_white">
+Copyright © 2014 めたたぐ All Rights Reserved.
 </footer>
 
 </body>

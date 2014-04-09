@@ -107,3 +107,11 @@ section{
     opacity: 1;
     visibility: visible;
 }
+
+
+footer.font_white{
+    color : white;
+    text-align: center;
+    height:30px;
+    background-color:#4468a9;
+}
