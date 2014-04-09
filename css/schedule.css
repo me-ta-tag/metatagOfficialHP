@@ -17,14 +17,14 @@
 
 #schedule_calender{
 	margin:0 auto 60px;
-	width:900px;
+	width:902px;
 	height:400px;
 	
 }
 	#schedule{
 		margin-top:23px;
 		float:left;
-		
+		padding-right: 2px;
 	}
 	#calender{
 		width:300px;
