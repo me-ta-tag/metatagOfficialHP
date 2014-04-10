@@ -88,9 +88,11 @@
 	<img src="../img/contents_schedule.png" alt="schedule_titleIMG">
 </div>
 
+<!--
 <div id="facebook_link">
 	<h3>参加をご希望の場合はこちらの <a href="https://www.facebook.com/metatag.kyoto">めたたぐfacebookページ</a> から</h3>
 </div>
+-->
 
 <div id="schedule_calender">
 
