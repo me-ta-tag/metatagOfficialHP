@@ -25,9 +25,9 @@
  */
 $calColorBgDark      = '#ffffff';	// dark background color
 $calColorTextOnDark  = '#000000';	// text appearing on top of dark bg color
-$calColorBgLight     = '#ffcc99';	// light background color
+$calColorBgLight     = '#4468a9';	// light background color
 $calColorTextOnLight = '#000000';	// text appearing on top of light bg color
-$calColorBgToday     = '#ffcc99';	// background color for "today" box
+$calColorBgToday     = '#4468a9';	// background color for "today" box
 
 /**
  * Orange color scheme
