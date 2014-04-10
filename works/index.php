@@ -110,6 +110,8 @@
 
 
 <section>
+    <img src="../img/works/works_main.jpg" width="900px" height="200px">
+
 	<img src="../img/contents_works.png" alt="contents_aboutus">
 	
 	<div id="content">
