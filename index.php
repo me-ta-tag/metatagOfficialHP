@@ -53,6 +53,7 @@
 
 
 <body>
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -61,7 +62,6 @@
   js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-    
     
     
     <!--hedaer-->
@@ -112,33 +112,51 @@
  <a name="news"></a>
  <div class="news_twi">
     <div id="left_box"><!-- 左側のボックス -->   
-<!--
-        <div class="news">
-            <div id="news_title"><img src="img/sub_title.png"></div>
-            
-            <div id="news_box">
-                <p>14.04.05 / <a href="https://www.facebook.com/metatag.kyoto" target="_blank">めたたぐの公式Facebookページ</a>ができました。</p>
-                <p>14.04.05 / めたたぐWebサイトオープンしました。</p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+    <!--
+            <div class="news">
+                <div id="news_title"><img src="img/sub_title.png"></div>
+                
+                <div id="news_box">
+                    <p>14.04.05 / <a href="https://www.facebook.com/metatag.kyoto" target="_blank">めたたぐの公式Facebookページ</a>ができました。</p>
+                    <p>14.04.05 / めたたぐWebサイトオープンしました。</p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
             </div>
-        </div>
-        <div id="ad"><img src="img/top_comming%20.png"></div>
--->
-<div class="fb-like-box" data-href="https://www.facebook.com/metatag.kyoto" data-width="575" data-height="350" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="true"></div>
-    
+            <div id="ad"><img src="img/top_comming%20.png"></div>
+    -->
+
+        <!-- 影を隠すよ -->
+        <div class="face_book_plgin_shadow_hidden"> </div>
+        <!-- この中にFBページを閉じ込めるよ -->
+        <section class="face_book_plgin_proposal_2"> <!-- ここでデザインもするよ -->
+          <!-- FBページ -->
+         <!-- <div class="fb-like-box" data-href="https://www.facebook.com/metatag.kyoto" data-width="575" data-height="350" data-show-faces="true" data-stream="false" data-header="false"></div>
+          <img class="face_book_plgin_logo_proposal_2" src="../../permalinks/2013-06-12_facebook_likebox_customize/likebox/test_iphone5-ios7.png">
+        -->
+        <div class="fb-like-box" data-href="https://www.facebook.com/metatag.kyoto" data-width="575" data-height="350" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
+
+          <!-- FBページから強制出力されるborderを隠す(トップ) -->
+          <div class="face_book_plgin_border_top"> </div>
+          <!-- FBページから強制出力されるborderを隠す(ライト) -->
+          <div class="face_book_plgin_border_right"> </div>
+          <!-- FBページから強制出力されるborderを隠す(ボトム) -->
+          <div class="face_book_plgin_border_bottom"> </div>
+          <!-- FBページから強制出力されるborderを隠す(レフト) -->
+          <div class="face_book_plgin_border_left"> </div>
+
+    </section>
     
     </div>
 
     <div class="twitter"><!-- 右︎側のボックス -->
         <a class="twitter-timeline" width="315px" height="350px" href="https://twitter.com/metatag_kcg"  data-widget-id="451253944694497280">@metatag_kcg からのツイート</a>
 
-        <!--facebookプラグイン---->
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
         </script>
     </div>
@@ -213,7 +231,7 @@
 </div>
 <!--/#contact-->
 
-<hr class="style-one">
+<!-- <hr class="style-one"> -->
 
 <footer id="blueline" class="font_white">
 Copyright © 2014 めたたぐ All Rights Reserved.

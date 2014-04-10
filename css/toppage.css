@@ -149,3 +149,24 @@ ul.dummy_menu li {
     background-color:#fff;
 }
 
+
+.face_book_plgin_shadow_hidden {
+    background: none repeat scroll 0 0 #FCFBF9;
+}
+
+
+
+.face_book_plgin_proposal_2 {
+    border-color: #ACACAC;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    margin: 0 0 41.6px;
+    overflow: hidden !important;
+    position: relative;
+    width: 100% !important;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
