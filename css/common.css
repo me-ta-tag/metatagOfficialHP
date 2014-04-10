@@ -206,3 +206,6 @@ h4.indent{
     text-indent: 300px;
 }
 
+img {
+    border-style:none;
+}
