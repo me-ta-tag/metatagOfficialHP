@@ -6,6 +6,8 @@
     <?php 
         require '../php/html/seo.php';
     ?>
+    <link rel="shortcut icon" href="../img/favicon.ico" /><!--ファビコン-->
+
 	<link rel="stylesheet" type="text/css" href="../css/common.css">
     <link rel="stylesheet" type="text/css" href="../css/menu.css" />
 <!--	<link rel="stylesheet" type="text/css" href="../works/css/works.css">-->
