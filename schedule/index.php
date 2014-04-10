@@ -108,7 +108,7 @@
 
 <!--		<iframe src="https://www.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=4uld363ldgo0692u5nvk9qegqo%40group.calendar.google.com&amp;color=%235A6986&amp;ctz=Asia%2FTokyo" style=" border-width:0 " width="900" height="400" frameborder="0" scrolling="no"></iframe>-->
 		
-		<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=4uld363ldgo0692u5nvk9qegqo%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Asia%2FTokyo" style=" border-width:0 " width="900" height="400" frameborder="0" scrolling="no"></iframe>
+		<iframe src="http://me-ta-tag.com/php/gcalendar-wrapper.php?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=4uld363ldgo0692u5nvk9qegqo%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Asia%2FTokyo" style=" border-width:0 " width="900" height="400" frameborder="0" scrolling="no"></iframe>
 		
 	</div>	
 	 
