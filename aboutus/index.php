@@ -52,106 +52,106 @@
 
 <section>
     <div class= "container">
-        <img src="..\img\about_us_main.jpg" alt= "catchcopy">
+        <img src="../img/about_us_main.jpg" alt= "catchcopy">
     </div>
     <div class= "container">
-        <img src="..\img\about_us_text.jpg"　alt= "greeting">
+        <img src="../img/about_us_text.jpg"　alt= "greeting">
     </div>
     <hr class="style-one">
     <div class= "container">
-        <img class= "member" src="..\img\contents_member.png" alt= "member">
+        <img class= "member" src="../img/contents_member.png" alt= "member">
     </div>
         <div class= "content">
             <a href= "https://www.facebook.com/looks.are.deceiving" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "部長：片山 幸弥">
-                <img class="face_img" src="..\img\face\face_5.jpg" alt= " 片山幸弥">
+                <img class="face_img" src="../img/face/face_5.jpg" alt= " 片山幸弥">
                 </figure>
             </a>
         </div>
         <div class= "content">
            <a href= "https://www.facebook.com/kentaro.hagiwara.7" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "副部長：萩原 健太郎">
-                <img class="face_img" src="..\img\face\face_7.jpg" alt= "萩原 健太郎">
+                <img class="face_img" src="../img/face/face_7.jpg" alt= "萩原 健太郎">
             </a>
         </div>
         <div class= "content">
             <a href= "https://www.facebook.com/chizuru8" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "C学系：海老池 千鶴">
-                <img class="face_img" src="..\img\face\face_1.jpg" alt= "海老池 千鶴">
+                <img class="face_img" src="../img/face/face_1.jpg" alt= "海老池 千鶴">
             </a>
         </div>
         <div class= "content">
                     <a href= "https://www.facebook.com/atsushi.shibata.9210" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "CommingSoon…：柴田 篤志">
-                <img  class="face_img"src="..\img\face\face_2.jpg" alt= "柴田 篤志">
+                <img  class="face_img"src="../img/face/face_2.jpg" alt= "柴田 篤志">
             </a>
         </div>
         <div class= "content">
             <a href= "https://www.facebook.com/hikari.tanimoto.792" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "A学系：谷本 輝">
-                <img class="face_img" src="..\img\face\face_3.jpg" alt= "谷本 輝">
+                <img class="face_img" src="../img/face/face_3.jpg" alt= "谷本 輝">
             </a>
         </div>
         <div class="clear"></div><!--floatクリア-->
         <div class= "content">
             <a href= "https://www.facebook.com/profile.php?id=100004589555734" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "C学系：内貴 皇海">
-                <img class="face_img" src="..\img\face\face_4.jpg" alt= "内貴 皇海">
+                <img class="face_img" src="../img/face/face_4.jpg" alt= "内貴 皇海">
             </a>
         </div>
         <div class= "content">
             <a href= "https://www.facebook.com/hiroaki.nagata.4" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "A学系：長田 太彪">
-                <img class="face_img" src="..\img\face\face_6.jpg" alt= "長田太彪">
+                <img class="face_img" src="../img/face/face_6.jpg" alt= "長田太彪">
             </a>
         </div>
         <div class= "content">
             <a href= "https://www.facebook.com/kazuto.omae.5?hc_location=timeline" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "A学系：大前 和人">
-                <img class="face_img" src="..\img\face\face_8.jpg" alt= "大前 和人">
+                <img class="face_img" src="../img/face/face_8.jpg" alt= "大前 和人">
             </a>
         </div>
         <div class= "content">
             <a href= "https://www.facebook.com/gbdvj" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "A学系：大崎 潤">
-                <img class="face_img" src="..\img\face\face_9.jpg" alt= "大崎 潤">
+                <img class="face_img" src="../img/face/face_9.jpg" alt= "大崎 潤">
             </a>
         </div>
         <div class= "content">
             <a href= "https://www.facebook.com/keigo.sogawa" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "C学系：十川 恵伍">
-                <img class="face_img" src="..\img\face\face_10.jpg" alt= "十川 恵伍">
+                <img class="face_img" src="../img/face/face_10.jpg" alt= "十川 恵伍">
             </a>
         </div>
         <div class="clear"></div><!--floatクリア-->
         <div class= "content">
             <a href= "https://www.facebook.com/syogo.hatamori" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "C学系：畑森 将吾">
-                <img class="face_img" src="..\img\face\face_11.jpg" alt= "畑森 将吾">
+                <img class="face_img" src="../img/face/face_11.jpg" alt= "畑森 将吾">
              </a>
         </div>
         <div class= "content">
             <a href= "https://www.facebook.com/yamasaki.yuusuke.7" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "C学系：山崎 悠介">
-                <img class="face_img" src="..\img\face\face_12.jpg" alt= "山崎 悠介">
+                <img class="face_img" src="../img/face/face_12.jpg" alt= "山崎 悠介">
             </a>
         </div>
         <div class= "content">
             <a href= "https://www.facebook.com/profile.php?id=100006679934087" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "C学系：桜井 翼">
-                <img class="face_img" src="..\img\face\face_13.jpg" alt= "桜井 翼">
+                <img class="face_img" src="../img/face/face_13.jpg" alt= "桜井 翼">
             </a>
         </div>
         <div class= "content">
             <a href= "https://www.facebook.com/profile.php?id=100004088379123" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "C学系：長谷川 彩乃">
-                <img class="face_img" src="..\img\face\face_14.jpg" alt= "長谷川 彩乃">
+                <img class="face_img" src="../img/face/face_14.jpg" alt= "長谷川 彩乃">
             </a>
         </div>
         <div class= "content">
             <a href= "https://www.facebook.com/zenji.hirata" target="_blank">
                 <figure class= "label inside bottom fade" data-label= "C学系：平田 善資">
-                <img class="face_img" src="..\img\face\face_15.jpg" alt= "平田 善資">
+                <img class="face_img" src="../img/face/face_15.jpg" alt= "平田 善資">
             </a>
         </div>
         <div class="clear"></div><!--floatクリア-->

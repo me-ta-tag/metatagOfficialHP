@@ -53,6 +53,17 @@
 
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
+    
+    
     <!--hedaer-->
     <header class="nav">
         <nav>
@@ -101,7 +112,8 @@
  <a name="news"></a>
  <div class="news_twi">
     <div id="left_box"><!-- 左側のボックス -->   
-        <div class="news"><!-- 更新履歴ボックス -->
+<!--
+        <div class="news">
             <div id="news_title"><img src="img/sub_title.png"></div>
             
             <div id="news_box">
@@ -116,12 +128,17 @@
                 <p></p>
             </div>
         </div>
-        <div id="ad"><img src="img/top_comming%20.png"></div><!-- 広告 --> 
+        <div id="ad"><img src="img/top_comming%20.png"></div>
+-->
+<div class="fb-like-box" data-href="https://www.facebook.com/metatag.kyoto" data-width="575" data-height="350" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="true"></div>
+    
+    
     </div>
 
     <div class="twitter"><!-- 右︎側のボックス -->
         <a class="twitter-timeline" width="315px" height="350px" href="https://twitter.com/metatag_kcg"  data-widget-id="451253944694497280">@metatag_kcg からのツイート</a>
 
+        <!--facebookプラグイン---->
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
         </script>
     </div>
