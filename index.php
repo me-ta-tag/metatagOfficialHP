@@ -20,6 +20,7 @@
     <script type="text/javascript" src="js/common.js"></script>
     <link href="css/light_box/lightbox.css" type="text/css" rel="stylesheet" media="all" />
     <script src="js/light_box/lightbox.js" type="text/javascript"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" /><!--ファビコン-->
 
     <link type="text/css" rel="stylesheet" href="css/slide/rhinoslider-1.05.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
