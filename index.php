@@ -227,7 +227,7 @@
 <!--#contact-->
 <div class="contact">
     <div class="contents"><img src="img/contents_contact.png" alt="contents_aboutus"></div> 
-    <img src="img/contact_contens.png">
+    <div class="contact_address"><img src="img/contact_contens.png"></div>
 </div>
 <!--/#contact-->
 
