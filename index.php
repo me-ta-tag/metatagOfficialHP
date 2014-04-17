@@ -168,7 +168,7 @@
 
 <!--#aboutus-->
 <div class="aboutus">
-    <div class="contents"><a href="aboutus/index.html"><img src="img/contents_aboutus.png" alt="contents_aboutus"></a></div>
+    <div class="contents"><a href="aboutus/index.php"><img src="img/contents_aboutus.png" alt="contents_aboutus"></a></div>
     <div id="aboutus_sentense">
         <h2 class="indent">もはや学びは強制されない。</h2>
         <h2 class="indent">しかし、ここが最後の学び場だ。<h3>
@@ -188,7 +188,7 @@
 
     <!--#works-->    
     <div class="works">
-        <div class="contents"><a href="works/index.html"><img src="img/contents_works.png" alt="contents_aboutus"></a></div>
+        <div class="contents"><a href="works/index.php"><img src="img/contents_works.png" alt="contents_aboutus"></a></div>
         <div id="works_pics">
 		<!--<a href="img/works/01_big.png" rel="lightbox">
 			<cap><img src="img/works/01_off.png"></cap>
@@ -215,7 +215,7 @@
 
 <!--#schedule-->
 <div class="schedule">
-    <div class="contents"><img src="img/contents_schedule.png" alt="contents_aboutus"></div>
+    <div class="contents"><a href="schedule/index.php"><img src="img/contents_schedule.png" alt="contents_aboutus"></div>
     <iframe src="gcalendar-wrapper.php?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=4uld363ldgo0692u5nvk9qegqo%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=Asia%2FTokyo" style=" border-width:0 " width="100%" height="300" frameborder="0" scrolling="no"></iframe>
     <!--<div class="contents"><a href="schedule/index.html"><img src="img/contents_schedule.png" alt="contents_aboutus"></a></div> -->
 </div>
