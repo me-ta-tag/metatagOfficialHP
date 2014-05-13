@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>めたたぐ/TOP</title>
+	<title>めたたぐ/WORKS</title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <?php 
         require '../php/html/seo.php';
