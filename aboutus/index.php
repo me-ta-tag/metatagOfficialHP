@@ -156,6 +156,60 @@
                 <img class="face_img" src="../img/face/face_15.jpg" alt= "平田 善資">
             </a>
         </div>
+        <div class= "content">
+            <a href= "https://www.facebook.com/keiryou.fast" target="_blank">
+                <figure class= "label inside bottom fade" data-label= "C学系：坂東 敬亮">
+                <img class="face_img" src="../img/face/face_16.jpg" alt= "坂東 敬亮">
+            </a>
+        </div>
+        <div class= "content">
+            <a href= "https://www.facebook.com/profile.php?id=100008175186475" target="_blank">
+                <figure class= "label inside bottom fade" data-label= "C学系：沼口 優香">
+                <img class="face_img" src="../img/face/face_17.jpg" alt= "沼口 優香">
+            </a>
+        </div>
+        <div class= "content">
+            <a href= "https://www.facebook.com/profile.php?id=100004767137005" target="_blank">
+                <figure class= "label inside bottom fade" data-label= "A学系：井之上 繭子">
+                <img class="face_img" src="../img/face/face_18.jpg" alt= "井之上 繭子">
+            </a>
+        </div>
+        <div class= "content">
+            <a href= "https://www.facebook.com/sugaya.minami" target="_blank">
+                <figure class= "label inside bottom fade" data-label= "A学系：菅谷 美波">
+                <img class="face_img" src="../img/face/face_19.jpg" alt= "菅谷 美波">
+            </a>
+        </div>
+        <div class= "content">
+            <a href= "https://www.facebook.com/profile.php?id=100008211883823" target="_blank">
+                <figure class= "label inside bottom fade" data-label= "C学系：四方 良">
+                <img class="face_img" src="../img/face/face_20.jpg" alt= "四方 良">
+            </a>
+        </div>
+        <div class= "content">
+            <a href= "https://www.facebook.com/profile.php?id=100008257062006" target="_blank">
+                <figure class= "label inside bottom fade" data-label= "C学系：藤本 幸子">
+                <img class="face_img" src="../img/face/face_21.jpg" alt= "藤本 幸子">
+            </a>
+        </div>
+        <div class= "content">
+            <a href= "https://www.facebook.com/tomohiko.kobayashi.9" target="_blank">
+                <figure class= "label inside bottom fade" data-label= "A学系：小林 智彦">
+                <img class="face_img" src="../img/face/face_22.jpg" alt= "小林 智彦">
+            </a>
+        </div>
+        <div class= "content">
+            <a href= "#" target="_blank">
+                <figure class= "label inside bottom fade" data-label= "C学系：きゅーさん">
+                <img class="face_img" src="../img/face/face_23.jpg" alt= "きゅーさん">
+            </a>
+        </div>
+        <div class= "content">
+            <a href= "https://www.facebook.com/profile.php?id=100008154915636" target="_blank">
+                <figure class= "label inside bottom fade" data-label= "C学系：中野 凱智">
+                <img class="face_img" src="../img/face/face_24.jpg" alt= "中野 凱智">
+            </a>
+        </div>
         <div class="clear"></div><!--floatクリア-->
 
 </section>
