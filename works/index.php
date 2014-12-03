@@ -132,7 +132,7 @@
                     そのバザーはどこで開催され、何が売られているのかが分からない。<br/>
                     そこで、来客者のためのバザーガイドとなるようなサイト「京コン的古物市」を作成しました。<br/>
                 </p>
-                <a href="http://kcg-furumono.me-ta-tag.com/">http://kcg-furumono.me-ta-tag.com/</a>
+                <a href="http://kcg-furumono-2013.me-ta-tag.com/">http://kcg-furumono-2013.me-ta-tag.com/</a>
             </div>
         </div>
         <div class="clear"></div>
