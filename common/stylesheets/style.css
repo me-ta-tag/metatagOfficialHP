@@ -1,0 +1,11 @@
+/* line 4, ../sass/style.scss */
+html, body {
+  width: auto;
+  height: auto;
+}
+
+/* line 8, ../sass/style.scss */
+div#content {
+  margin: 50px auto;
+  max-width: 980px;
+}

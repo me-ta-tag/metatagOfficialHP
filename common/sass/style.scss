@@ -1,6 +1,11 @@
 
 //@import "compass/reset";
 
-div{
-
+html,body{
+  width: auto;
+  height: auto;
+}
+div#content{
+  margin: 50px auto;
+  max-width:980px;
 }
