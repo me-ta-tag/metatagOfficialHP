@@ -15,3 +15,10 @@ div#content {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
+
+/* line 19, ../sass/style.scss */
+div#subTitle {
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  padding: 0.5em;
+  margin-bottom: 1.0em;
+}
