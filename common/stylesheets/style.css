@@ -11,20 +11,19 @@ div#content {
   max-width: 980px;
   box-shadow: 0px 5px 6px -2px rgba(0, 0, 0, 0.4);
   padding: 0.5em;
-  border: solid 1px #ccc;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 div#subTitle {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
   padding: 0.5em;
   margin-bottom: 1.0em;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 .card .card-image {
   z-index: 1;
 }
