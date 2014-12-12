@@ -38,119 +38,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col s6 m4 l3">
-            <div class="card">
-                <div class="card-image">
-                    <img src="01_off.png">
-                    <span class="card-title">京コン的古物市1</span>
-                </div>
-                <div class="card-content">
-                    <p>フリーマーケット1</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
-        <div class="col s6 m4 l3">
-            <div class="card">
-                <div class="card-image">
-                    <img src="01_off.png">
-                    <span class="card-title">京コン的古物市2</span>
-                </div>
-                <div class="card-content">
-                    <p>フリーマーケット2</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
-        <div class="col s6 m4 l3">
-            <div class="card">
-                <div class="card-image">
-                    <img src="01_off.png">
-                    <span class="card-title">京コン的古物市3</span>
-                </div>
-                <div class="card-content">
-                    <p>フリーマーケット3</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
-        <div class="col s6 m4 l3">
-            <div class="card">
-                <div class="card-image">
-                    <img src="01_off.png">
-                    <span class="card-title">京コン的古物市4</span>
-                </div>
-                <div class="card-content">
-                    <p>フリーマーケット4</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
-        <div class="col s6 m4 l3">
-            <div class="card">
-                <div class="card-image">
-                    <img src="01_off.png">
-                    <span class="card-title">京コン的古物市5</span>
-                </div>
-                <div class="card-content">
-                    <p>フリーマーケット5</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
-        <div class="col s6 m4 l3">
-            <div class="card">
-                <div class="card-image">
-                    <img src="01_off.png">
-                    <span class="card-title">京コン的古物市6</span>
-                </div>
-                <div class="card-content">
-                    <p>フリーマーケット6</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
-        <div class="col s6 m4 l3">
-            <div class="card">
-                <div class="card-image">
-                    <img src="01_off.png">
-                    <span class="card-title">京コン的古物市7</span>
-                </div>
-                <div class="card-content">
-                    <p>フリーマーケット7</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
-        <div class="col s6 m4 l3">
-            <div class="card">
-                <div class="card-image">
-                    <img src="01_off.png">
-                    <span class="card-title">京コン的古物市8</span>
-                </div>
-                <div class="card-content">
-                    <p>フリーマーケット8</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
+    <div id="cards" class="row">
     </div>
 </div>
 
@@ -162,5 +50,21 @@
 <script src="common/include/materialize/js/materialize.min.js"></script>
 <script src="/common/include/init.js"></script>
 <script src="common/js/app.js"></script>
+<script type="text/template" id="works_card_template">
+    <div class="col s6 m4 l3">
+        <div class="card">
+            <div class="card-image">
+                <img src="01_off.png">
+                <span class="card-title"><%- name %></span>
+            </div>
+            <div class="card-content">
+                <p><%- detail %></p>
+            </div>
+            <div class="card-action">
+                <a href="#"><%- link_title %></a>
+            </div>
+        </div>
+    </div>
+</script>
 </body>
 </html>
