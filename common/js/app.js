@@ -20,22 +20,13 @@ $(function(){
     });
 
     // View
-    var WorkCardView = Backbone.View.extend({
-    	template: _.template($('#works_card_template').html()),
-		render: function(){
-			var tmp = this.template(this.model.toJSON());
-			this.$el.html(tmp);
-			return this;
-		}
-    });
-
     var WorkCardsView = Backbone.View.extend({
+        template: _.template( $('#works_card_template').html() ),
     	render: function(){
+            // workcards内のJSONを1つずつ#cardsにappend
     		this.collection.each(function(workcard){
-    			var workcardView = new WorkCardView({
-    				model: workcard
-    			});
-    			this.$el.append(workcardView.render().el);
+                var tmp = this.template( workcard.attributes );
+                $('#cards').append(tmp);
     		}, this);
     		return this;
     	}
@@ -52,6 +43,6 @@ $(function(){
     	collection: workcards
     });
 
-    $('#cards').append(workcardsView.render().el);
+    workcardsView.render();
 
 });
