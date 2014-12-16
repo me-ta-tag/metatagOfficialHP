@@ -5,6 +5,14 @@ html,body{
   width: auto;
   height: auto;
 }
+div#header {
+  nav{
+    background-color: #4468a9;
+    .brand-logo{
+      padding: 10px 30px;
+    }
+  }
+}
 div#content{
   margin: 50px auto;
   background: white;
