@@ -5,6 +5,32 @@
 	<title>Document</title>
     <link rel="stylesheet" href="common/stylesheets/style.css"/>
     <link type="text/css" rel="stylesheet" href="common/include/materialize/css/materialize.min.css"  media="screen,projection"/>
+    <style>
+        .twitter-timeline {
+            width:100%!important;
+            height: 308px;
+        }
+        .fb-like-box,
+        .fb-like-box span,
+        .fb-like-box iframe[style]{
+            width: 100%!important;
+        }
+        .col .shortcard{
+            height: 150px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+        .row{
+            margin-bottom: 0px;
+        }
+        .tallcard{
+            height: 308px;
+            margin-top: 0px;
+        }
+        .thumbnail{
+            height: 150px;
+        }
+    </style>
 </head>
 <body>
     <div id="fb-root"></div>
@@ -18,56 +44,59 @@
     <div id="content">
         <div class="row">
             <div class="col s12 m6 l3">
-                <div class="card red darken-3">
+                <div class="card shortcard red darken-3">
                     <div class="card-image">
-                        <img src="about.png">
-                        <span class="card-title">Works</span>
+                        <a href="about.html">
+                            <img src="about.png" class="thumbnail">
+                            <span class="card-title">About</span>
+                        </a>
                     </div>
                 </div>
-                <div class="card blue darken-3">
+                <div class="card shortcard blue darken-3">
                     <div class="card-image">
-                        <img src="works.png">
-                        <span class="card-title">Works</span>
+                        <a href="work.html">
+                            <img src="works.png" class="thumbnail">
+                            <span class="card-title">Works</span>
+                        </a>
                     </div>
                 </div> 
             </div>
             <div class="col s12 m6 l3">
-                <div class="card-panel">
+                <div class="card tallcard">
                     <a class="twitter-timeline" href="https://twitter.com/metatag_kcg" data-widget-id="546549734291173376">@metatag_kcgさんのツイート</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
             </div>
             <div class="col s12 m6 l3">
-                <div class="card-panel">
-                    <div class="fb-like-box" data-href="https://www.facebook.com/metatag.kyoto" data-height="400" data-width="200" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+                <div class="card tallcard">
+                    <div class="fb-like-box" data-href="https://www.facebook.com/metatag.kyoto" data-height="308" data-width="200" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
                 </div>
             </div>
 
             <div class="col s12 m6 l3">
-                <div class="card-panel green">
+                <div class="card green darken-3 tallcard">
                     <div class="card-image">
-                        <img src="">
+                        <img src="" class="">
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col s12 m6 l3">
-                <div class="card orange darken-3">
+                <div class="card orange darken-3 shortcard">
                     <div class="card-image">
-                        <img src="member.png">
+                        <img src="member.png" class="thumbnail">
                         <span class="card-title">Member</span>
                     </div>
-                </div> 
+                </div>
             </div>
             <div class="col s12 m6 l9">
-                <div class="card-panel green">
+                <div class="card green shortcard">
+                    <div class="card-image">
                     <span class="gray-text">
-                        めたたぐとは?<br />
-                        めたたぐであって、<br />
-                        めたたぐでない。<br />
                         メール:<address>abc@def.com</address>
                     </span>
+                    </div>
                 </div>
             </div>
         </div class="row">
