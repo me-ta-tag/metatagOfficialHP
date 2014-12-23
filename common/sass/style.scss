@@ -11,3 +11,58 @@ div#content{
   min-width:980px;
 
 }
+#content{
+    max-width:980px;
+    margin: 0 auto;
+    border: solid 1px;
+    border-radius: 10px;        /* 角丸CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;  /* Firefox用 */ 
+}
+.hide-font{
+    color: #fff;
+}
+.card-action p{
+    color: #fff;
+}
+#member_title{
+    width: 960px;
+    height: 150px;
+    background-color: #f9f999;
+    margin: 0 auto;
+    margin-top: -15px;
+    text-align: center;
+}
+#member_title p{
+    font-size: 24px;
+}
+#member-ex{
+    width: 960px;
+    height: 100px;
+    background-color: #fcfcfc;
+    margin: 0 auto;
+}
+.card{
+    position: relative;
+    overflow:visible;
+}
+.hide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 0;
+}
+.onmousehover:hover .hide{
+    opacity: 1;
+}
+.word-font{
+    font-family: "Comic Sans MS Bold"；
+}
+
+
