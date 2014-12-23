@@ -2,18 +2,25 @@
 html, body {
   width: auto;
   height: auto;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* line 9, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 div#header nav {
   background-color: #4468a9;
 }
-/* line 11, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 div#header nav .brand-logo {
   padding: 10px 30px;
 }
+/* line 18, ../sass/style.scss */
+div#header nav #nav-mobile {
+  padding-right: 20px;
+}
 
-/* line 16, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 div#content {
   margin: 50px auto;
   background: white;
@@ -25,7 +32,7 @@ div#content {
   -moz-border-radius: 0 0 2px 2px;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 div#subTitle {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
   padding: 0.5em;
@@ -35,7 +42,12 @@ div#subTitle {
   -moz-border-radius: 0 0 2px 2px;
 }
 
-/* line 36, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .card .card-image {
   z-index: 1;
+}
+
+/* line 48, ../sass/style.scss */
+nav ul a:hover {
+  color: #4468a9;
 }
