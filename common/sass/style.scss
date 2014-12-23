@@ -4,21 +4,48 @@
 html,body{
   width: auto;
   height: auto;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+div#header {
+  nav{
+    background-color: #4468a9;
+    .brand-logo{
+      padding: 10px 30px;
+    }
+    #nav-mobile{
+      padding-right: 20px;
+    }
+  }
 }
 div#content{
   margin: 50px auto;
+  background: white;
   max-width:980px;
-  min-width:980px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+  padding: 0.5em;
+//  margin-bottom: 1.0em;
+  border-radius: 0 0 2px 2px;
+  -webkit-border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
+}
+div#subTitle{
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+  padding: 0.5em;
+  margin-bottom: 1.0em;
+  border-radius: 0 0 2px 2px;
+  -webkit-border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
+}
+.card{
+  .card-image{
+    z-index: 1;
+  }
+}
 
-}
-#content{
-    max-width:980px;
-    margin: 0 auto;
-    border: solid 1px;
-    border-radius: 10px;        /* 角丸CSS3草案 */  
-    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
-    -moz-border-radius: 10px;  /* Firefox用 */ 
-}
+
 .hide-font{
     color: #fff;
 }
@@ -65,4 +92,7 @@ div#content{
     font-family: "Comic Sans MS Bold"；
 }
 
+nav ul a:hover {
+  color: #4468a9;
+}
 
