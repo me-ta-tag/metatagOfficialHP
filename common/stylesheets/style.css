@@ -2,9 +2,9 @@
 html, body {
   width: auto;
   height: auto;
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background_test.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 /* line 12, ../sass/style.scss */
