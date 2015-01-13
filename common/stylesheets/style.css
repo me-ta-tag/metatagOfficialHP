@@ -1,9 +1,10 @@
-/* line 4, ../sass/style.scss */
+@charset "UTF-8";
 html, body {
   width: auto;
   height: auto;
   background-image: url("../img/background_test.jpg");
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-size: 100%;
 }
 
@@ -21,6 +22,7 @@ div#header nav #nav-mobile {
 }
 
 /* line 22, ../sass/style.scss */
+
 div#content {
   margin: 50px auto;
   background: white;
@@ -29,8 +31,7 @@ div#content {
   padding: 0.5em;
   border-radius: 0 0 2px 2px;
   -webkit-border-radius: 0 0 2px 2px;
-  -moz-border-radius: 0 0 2px 2px;
-}
+  -moz-border-radius: 0 0 2px 2px; }
 
 /* line 33, ../sass/style.scss */
 div#subTitle {
@@ -39,15 +40,61 @@ div#subTitle {
   margin-bottom: 1.0em;
   border-radius: 0 0 2px 2px;
   -webkit-border-radius: 0 0 2px 2px;
-  -moz-border-radius: 0 0 2px 2px;
-}
+  -moz-border-radius: 0 0 2px 2px; }
 
 /* line 42, ../sass/style.scss */
+
 .card .card-image {
-  z-index: 1;
-}
+  z-index: 1; }
+
+.hide-font {
+  color: #fff; }
+
+.card-action p {
+  color: #fff; }
+
+#member_title {
+  width: 960px;
+  height: 150px;
+  background-color: #f9f999;
+  margin: 0 auto;
+  margin-top: -15px;
+  text-align: center; }
+
+#member_title p {
+  font-size: 24px; }
+
+#member-ex {
+  width: 960px;
+  height: 100px;
+  background-color: #fcfcfc;
+  margin: 0 auto; }
+
+.card {
+  position: relative;
+  overflow: visible; }
+
+.hide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0; }
+
+.onmousehover:hover .hide {
+  opacity: 1; }
+
+.word-font {
+  font-family: "Comic Sans MS Bold" ；; }
 
 /* line 47, ../sass/style.scss */
+
 nav ul a:hover {
-  color: #4468a9;
-}
+  color: #4468a9; }
+
+/*# sourceMappingURL=style.css.map */
