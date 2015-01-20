@@ -16,29 +16,42 @@ $(function(){
 	    	'': 'index',
 	    	'about': 'about',
 	    	'works': 'works',
-	    	'member': 'member'
+	    	'member': 'member',
 	    },
 
 	    index: function(){
 	    	console.log('index');
+	    	$('.index-content').show(800);
+		    $('.works-content').hide();
+		    $('.member-content').hide();
+		    $('.about-content').hide();
 
 	    },
 
 	    about: function(){
 	    	console.log('about');
-	    	$('.about-card').hide();
+	    	$('.about-content').show(800);
+	    	$('.index-content').hide();
+		    $('.works-content').hide();
+		    $('.member-content').hide();
 
 	    },
 
 	    works: function(){
 	    	console.log('works');
-	    	$('.works-card').hide();
+	    	$('.works-content').show(800);
+	    	$('.index-content').hide();
+		    $('.member-content').hide();
+		    $('.about-content').hide();
 
 	    },
 
 	    member: function(){
 	    	console.log('member');
-	    	$('.member-card').hide();
+	    	$('.member-content').show(800);
+	    	$('.index-content').hide();
+		    $('.works-content').hide();
+		    $('.about-content').hide();
 
 	    }
 
@@ -48,5 +61,6 @@ $(function(){
     var router = new Router();
 
     Backbone.history.start();
+
 
 });
